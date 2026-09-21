@@ -1,5 +1,8 @@
 # idsniff
 
+Started as a university coursework and originally built with no AI tools.
+Extended for more general purpose use to explore this topic in depth and refine my C skills.
+
 A small multithreaded network intrusion detector in C (libpcap + pthreads). It watches IPv4/TCP and ARP traffic and reports:
 
 - **SYN floods**: SYN packets (without ACK) and the number of distinct source IPs
